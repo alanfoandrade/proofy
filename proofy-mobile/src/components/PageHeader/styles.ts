@@ -10,6 +10,13 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'space-between',
+    marginTop: 8,
+  },
+
+  header: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'space-between',
   },
 
   title: {
@@ -18,7 +25,7 @@ const styles = StyleSheet.create({
     fontSize: 24,
     lineHeight: 32,
     maxWidth: 160,
-    marginVertical: 40,
+    marginVertical: 30,
   },
 });
 
